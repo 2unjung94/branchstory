@@ -15,7 +15,7 @@
 <!-- 페이지마다 다른 제목 -->
 <title>
   <c:choose>
-    <c:when test="${empty param.title}">브런치스토리</c:when>
+    <c:when test="${empty param.title}">Welcome</c:when>
     <c:otherwise>${param.title}</c:otherwise>
   </c:choose>
 </title>
@@ -158,19 +158,6 @@
     $(".header-nav").on("click", function(event) {
         event.stopPropagation();
     });
-  
-  
-  //탈퇴버튼 눌렀을시 
-  
-     const fnLeaveBtn = () => {
-     document.getElementById('leave-btn').addEventListener('click', (e) => {
-       if (confirm('탈퇴하시겠습니까?')) {
-         location.href = '${contextPath}/user/leave.do';
-       }
-     });
-   }
-     fnLeaveBtn();
-     
-     
+
     </script>
     
