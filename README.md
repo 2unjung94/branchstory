@@ -1,112 +1,138 @@
-# GDJ77 Semi Project - 브런치 클론코딩 프로젝트
----
+## 💻 Project 01 - 브런치 스토리 클론 코딩
+>국비 교육에서 진행한 첫 번째 프로젝트입니다. 현재 서비스 중인 블로그 플랫폼인 “브런치스토리” 라는 사이트를 클론 코딩한 프로젝트로서 배운 것을 최대한 활용하고자 하는 팀원들의 의견에서부터 시작되었습니다. 사이트에 가입한 회원들이 키워드에 맞는 글을 작성하고, 댓글을 서로 주고받으며 글에 대한 좋아요를 할 수 있는 서비스를 제공합니다 . 회원이 아니어도 찾고자 하는 글이나 작가를 검색할 수 있고 키워드별 게시판에서 글을 확인할 수 있습니다. 
+
+## 목차
+- [개요](#개요)
+- [화면설명](#화면설명)
+
+## 개요
+- 프로젝트 이름
+- 프로젝트 지속기간
+- 멤버 
+
+## 사용기술
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+<img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
+<img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 
-#### 프로젝트 개요
+## 🛠 기능 엿보기   
 
-블로그형 웹사이트 브런치 클론 코딩 프로젝트입니다.
+1. [❓ EASYME.md가 뭐예요?  ](#-easymemd가-뭐예요)
+2. [🙋‍♀️ 좀 더 구체적으로 가르쳐주세요!](#-좀-더-구체적으로-가르쳐주세요)
+3. [🛠 기능 엿보기](#-기능-엿보기)
+    - [Header](#header)   
+    - [Text Style1](#text-style1)   
+    - [Text Stlye2](#text-style2)   
+    - [List](#list)      
+    - [Link](#link)   
+    - [Code Block](#code-block)   
+    - [Table](#table)   
+   
+## Header
+- # H1 Header   
+- ## H2 Header   
+- ### H3 Header   
+- #### H4 Header   
+- ##### H5 Header   
+- ###### H6 Header   
+
+<br>   
+
+## Text Style1
+- **진하게** (`Ctrl(Command) + B`)   
+- *기울이기* (`Ctrl(Command) + I`)   
+- <s>취소선</s> (`Ctrl(Command) + D`)   
+- <u>밑줄</u> (`Ctrl(Command) + U`)   
+
+<br>   
+   
+## Text Style2
+
+>인용문   
+   
+<details><summary>접고 펴는 기능
+</summary>
+
+*Write here!*
+</details>
+
+- EASYME.md를 드래그하고 상단에 `Aa` 아이콘을 누르면? 👉 Easyme.md   
+- EASYME.md를 드래그하고 상단에 `A` 아이콘을 누르면? 👉 EASYME.MD   
+- EASYME.md를 드래그하고 상단에 `a` 아이콘을 누르면? 👉 easyme.md   
+   
+<br>   
+   
+## List   
+### Table of contents
+1. [title1](#write-title-here!)   
+2. [title2](#only-lowercase)   
+3. [title3](#use"-"instead-of-spacing-words)   
+4. [title4](#example)   
+    - [❓ EASYME.md가 뭐예요?](#-easymemd가-뭐예요)   
+    - [🛠 기능 엿보기](#-기능-엿보기)
+   
+### Unordered list   
+- unordered list1   
+- unordered list2   
+- unordered list3   
+- unordered list4   
+   
+### Ordered list   
+1. ordered list1   
+2. ordered list2   
+3. ordered list3   
+4. ordered list4   
+   
+<br>   
+   
+## Link   
+### General link
+- [🚗 Visit EASYME.md's Repo](https://github.com/EASYME-md/client)   
+- [🙋‍♂️ Visit ONE:A's Github](https://github.com/onealog)
+
+### Image link
+![onealog](/assets/readme/easyme.png)   
+   
+<br>   
+   
+## Code Block   
+### Code inline
+- `console.log('Hello EASYME.md!');`   
+   
+### Code block
+```js
+function makeDeveloper(name, language) {
+  if (name === 'ONE:A' && language === 'JavaScript') {
+    return 'perfect!';
+  }
+
+  return false;
+}
+
+makeDeveloper('ONE:A', 'JavaScript');
+```
+
+<br>   
+   
+## Table   
 
 
-
-<br/> 
-
-
-#### 구성원
-+ 박모빈 [https://github.com/mobin1015]
-+ 이소이 [https://github.com/soyi9601]
-+ 신동우 [https://github.com/ted4010]
-+ 고은정 [https://github.com/2unjung94]
-+ 강산들 [https://github.com/san-deul]
-+ 민수지 [https://github.com/qqsuzy]
+| title1 | title2 | title3 |
+| --- | --- | --- |
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
+| 7 | 8 | 9 |
 
 
+<br> 
 
-<br/> 
-
-
-#### 사용기술
-
-+ **개발환경**: STS 4
-
-+ **프론트엔드**: HTML5, CSS, JS, jQuery, Bootstrap
-
-+ **백엔드**: Java, Spring Framework, Mybatis Framework
-
-+ **데이터베이스**: Oracle SQL Developer
-
-+ **서버**: Tomcat
-
-+ **버전관리**: Git, GitHub
-
-+ **협업**: Slack
-
-
-
-
-<br/> 
-
-  
-#### 담당 업무 및 역할
-
-+ **팀장**: 프로젝트 기본아키텍처 구성하여 GitHub에 배포 및 GitHub main 브런치 관리, 개발 일정관리
-
-+ **담당 기능 구현**: 게시글 상세보기 기능을 구현했습니다.
-
-<br/><br/> 
-
-  + 게시글 편집하기
-  ![편집하기](https://github.com/user-attachments/assets/cde95a72-73f2-4b59-8c50-f6b051984daa)
-      편집아이콘을 클릭하여 게시글을 수정할 수 있습니다. 	
-
-
-
-<br/><br/> 
-
- 
-  + 추천하기
-  ![추천하기](https://github.com/user-attachments/assets/e79283c0-b495-4359-94fc-c39062147318)
-	추천아이콘을 클릭하여 추천과 취소를 할 수 있으며 브라우저를 닫아도 유지됩니다.
-
-
-<br/><br/> 
-
-
-
-  + 댓글 작성하기
-  ![댓글 달기](https://github.com/user-attachments/assets/2f49d54b-f736-4e16-9517-228107a1d341)
-     댓글을 작성할 수 있습니다.
-
-
-<br/><br/> 
-
- 
-  + 답글 작성하기
-  ![답글 달기](https://github.com/user-attachments/assets/ec69ce90-ad79-458c-97ce-c870aba246f3)
-     어떤 유저에게 답글을 달면 해당 유저의 닉네님이 태그로 생성됩니다.
-
-<br/><br/> 
-  + 댓글/ 답글 삭제
-  ![댓답글 삭제](https://github.com/user-attachments/assets/3f2fce7a-5d1c-4f6f-8832-200277be082b)
-     자신의 댓글과 답글을 삭제할 수 있습니다
-
-<br/><br/> 
-  + 작가 프로필 확인
-  ![작가프로필](https://github.com/user-attachments/assets/6434409b-2ebf-405e-9541-76e7c2e748d2)
-     작가 설명란의 프로필 사진, 작가이름, 소개글을 클릭하면 작가 프로필 페이지로 이동합니다. 
-
-
-<br/><br/> 
-  + 게시글 삭제
-  ![게시글 삭제](https://github.com/user-attachments/assets/6305c573-9dd7-4c32-bdaf-5abee83cc14a)
-   자신의 게시글을 삭제할 수 있습니다. 삭제된 게시글과 작성된 댓글 모두 DB에서 삭제합니다.
-    
-
-
-  
-
-<br/><br/>   
-
-#### 제작 기간
-
-2024년 4월 29일부터 2024년 5월 10일까지, 총 2주간 진행되었습니다.
+##
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F2unjung94%2Fbranchstory&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
